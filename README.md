@@ -1,35 +1,86 @@
-# Java Console Billing Application
+# Retail Billing System - Java Console Application
 
-A simple yet functional billing system implemented in Java that demonstrates:
-- Console input/output handling
-- Basic arithmetic operations
-- Formatted text display
-- Discount calculations
+![Java](https://img.shields.io/badge/Java-17-blue)
+![Console](https://img.shields.io/badge/Platform-Console-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-orange)
+
+A complete retail billing solution with cash management features, developed to demonstrate core Java programming concepts.
 
 ## Features
-- Takes customer details (name, phone)
-- Accepts product quantities (7 grocery items)
-- Calculates itemized totals
-- Applies 10% discount
-- Generates formatted bill output
 
-## How to Run
-1. Ensure Java JDK is installed
-2. Compile: `javac BillPrint.java`
-3. Run: `java BillPrint`
-4. Follow on-screen prompts
+- 🛒 **Product Management**
+  - 7 product categories (Basmathi, Dhal, Suger, etc.)
+  - Fixed unit prices with quantity input
+  - Automatic total calculation
 
+- 💰 **Financial Calculations**
+  - Subtotal computation
+  - 10% automatic discount
+  - Net amount calculation
+
+- 💵 **Cash Handling**
+  - Cash input from customer
+  - Change calculation
+  - Denomination breakdown (notes & coins)
+
+- 🖨️ **Professional Receipt**
+  - Store header with ASCII art
+  - Customer details section
+  - Itemized product listing
+  - Payment summary
+
+## Code Structure
+
+-java
+--// Main components:
+---1. Customer information input
+---2. Product quantity collection
+---3. Price calculations
+---4. Cash handling system
+---5. Change denomination logic
+---6. Receipt formatting
+
+## How to Use
+### Prerequisites:
+
+-Java JDK 17+ installed
+-Terminal/Command Prompt access
+
+## Running the Application:
+-javac BillPrint.java
+-java BillPrint
+
+## Usage Flow:
+
+-Enter customer phone and name
+-Input quantities for each product
+-Provide cash amount from customer
+-View detailed receipt with change breakdown
 
 ## Technical Details
-- Pure Java (no external dependencies)
-- Uses `Scanner` for input
-- Constants for product prices
-- Formatted console output
 
-## Future Improvements
-- Add file saving for bills
-- Implement product catalog
-- Add tax calculations
-- GUI version
+### Core Java Concepts Used:
 
-Developed as a Java fundamentals practice exercise.
+-Scanner class for input
+-Arithmetic operations
+-Type casting
+-Modular arithmetic
+-Console formatting
+
+## 🌟 Future Improvements
+
+-Add product database
+-Implement tax calculations
+-Create GUI version
+-Add transaction history
+-Support for multiple customers
+
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Developed by [Dinushka Tharidu] as a Java learning project
+
+## 📬 Contact
+**Developer**: A.S. Dinushka Tharidu  
+**Email**: asdinushkatharidu@gmail.com
+**LinkedIn**: [Profile Link](https://www.linkedin.com/in/dinushka-tharidu-b3a1a1253)
